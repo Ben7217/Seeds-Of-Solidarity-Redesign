@@ -1,0 +1,67 @@
+body {
+    background-image: url("farm3.jpeg");
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    text-shadow: 2px 2px #000;
+    color: #FFF;
+}
+
+#index-headline {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#seeds-logo-text {
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-shadow: black 2px 2px;
+
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+
+   ;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.page-header {
+    display: flex;
+}
+
+h1,
+.nav {
+    flex: 1;
+    vertical-align: top;
+    margin-top: 0 !important;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav.nav-pills>li {
+    float: none;
+    display: inline-block;
+}
+p {
+    text-align: justify;
+    font-size: 15px;
+}
